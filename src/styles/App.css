@@ -1,0 +1,37 @@
+.Main {
+  display: flex;
+}
+
+
+.Card {
+  width: 300px;
+  height: 364px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.Descripcion {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo {
+  font-size: 16px;
+  font-weight: 900;
+  color: #22232b;
+  bottom: 50px;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  background-color: white;
+}
+
+.precio {
+  font-family: Avenir-Roman;
+  font-size: 16px;
+  color: #22232b;
+}
+
